@@ -3,14 +3,17 @@ package com.portfolio.fls.Security.Dto;
 
 import javax.validation.constraints.NotBlank;
 
-
+/**
+ *
+ * @author Usuario
+ */
 public class LoginUsuario {
     @NotBlank
     private String nombreUsuario;
     @NotBlank
     private String password;
     
-//Getter y Setter
+    //Getter & Setter
 
     public String getNombreUsuario() {
         return nombreUsuario;

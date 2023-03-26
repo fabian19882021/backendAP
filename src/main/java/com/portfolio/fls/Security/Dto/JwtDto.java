@@ -34,8 +34,8 @@ public class JwtDto {
         return bearer;
     }
 
-    public void setBearer(String Bearer) {
-     this.bearer = bearer;
+    public void setBearer(String bearer) {
+        this.bearer = bearer;
     }
 
     public String getNombreUsuario() {
@@ -53,6 +53,5 @@ public class JwtDto {
     public void setAuthorities(Collection<? extends GrantedAuthority> authorities) {
         this.authorities = authorities;
     }
-    
     
 }
